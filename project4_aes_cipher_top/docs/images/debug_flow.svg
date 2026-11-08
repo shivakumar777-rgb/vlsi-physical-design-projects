@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" font-family="Arial, sans-serif">
+  <rect width="900" height="190" fill="#fff"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <text x="450" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Unresolved reference debug flow</text>
+  <g stroke="#333" stroke-width="2" fill="#e8f1ff">
+    <rect x="15" y="60" width="130" height="64" rx="8"/>
+    <rect x="185" y="60" width="130" height="64" rx="8" fill="#ffe3e3"/>
+    <rect x="355" y="60" width="130" height="64" rx="8" fill="#ffe3e3"/>
+    <rect x="525" y="60" width="130" height="64" rx="8"/>
+    <rect x="695" y="60" width="130" height="64" rx="8" fill="#e6f7e6"/>
+  </g>
+  <g stroke="#333" stroke-width="2" marker-end="url(#a)">
+    <line x1="145" y1="92" x2="183" y2="92"/><line x1="315" y1="92" x2="353" y2="92"/>
+    <line x1="485" y1="92" x2="523" y2="92"/><line x1="655" y1="92" x2="693" y2="92"/>
+  </g>
+  <g text-anchor="middle" font-size="14" fill="#222">
+    <text x="80" y="88">analyze +</text><text x="80" y="106">elaborate</text>
+    <text x="250" y="88">unresolved</text><text x="250" y="106">references</text>
+    <text x="420" y="88">link shows</text><text x="420" y="106">aes_sbox missing</text>
+    <text x="590" y="88">find file, add</text><text x="590" y="106">path to RTL list</text>
+    <text x="760" y="88">re-run:</text><text x="760" y="106">clean</text>
+  </g>
+</svg>
