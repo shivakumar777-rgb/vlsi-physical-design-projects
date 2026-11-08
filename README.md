@@ -1,4 +1,3 @@
-# vlsi-physical-design-projects
 # VLSI Physical Design Projects
 
 VLSI projects covering the RTL-to-floorplan ASIC flow: static timing analysis (STA), SDC constraints, timing debug, logic synthesis with Synopsys Design Compiler, and physical design with IC Compiler II (ICC2).
