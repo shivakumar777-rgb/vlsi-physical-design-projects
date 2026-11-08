@@ -1,4 +1,4 @@
-# Project 4: AES Cipher Top, Unresolved Reference Debug
+| AES cipher top, unresolved reference debug | [project4_aes_cipher_top](project4_aes_cipher_top) | Missing module debug |# Project 4: AES Cipher Top, Unresolved Reference Debug
 
 **Tool:** Synopsys Design Compiler | **Language:** Tcl, Verilog RTL
 
